@@ -1,0 +1,577 @@
+/*Cuidado ao abrir e fechar coisas, voce pode estar englobando coisa que nao deveria e o codigo nao funciona*/
+html,body{
+	margin: 0; /*quando voce quiser zerar algo vc pode ou escrever 0px ou somente 0*/
+	padding: 0;
+
+
+}
+
+body{
+
+	background-color: #B1F9E1;
+	font-family: 'Montserrat Alternates', sans-serif;
+
+
+
+}
+
+.linha1{
+	border:2px solid #2f9c95;
+	border-radius: 2px;
+}
+
+
+.navigation{
+	background-color: #36AB9D;
+	color: white;
+	height: 50px;
+	animation-name: navigation;
+	animation-duration:2s;
+}
+
+.navigation a{
+	color:white;
+	text-decoration: none;
+
+}
+.navigation a:hover{
+	color: #9aa0a8;
+}
+.navigation li.threeline-icon{
+	display: none;
+
+}
+
+.navigation li.threeline-icon:hover{
+	cursor: pointer;
+	color: #9aa0a8;
+	
+}
+
+
+
+
+.navigation ul{
+	margin-top: 0;
+	list-style: none;
+	padding-left: 0;
+	text-align: right;
+	height: 50px;
+	font-weight: 300;
+	
+
+
+}
+
+.navigation li{
+	display: inline-block;
+	padding-left: 30px;
+	padding-right: 30px;
+	line-height: 50px;
+	font-size: 16px;
+
+}
+
+.cover{
+	color: #2f9c95;
+
+}
+
+.cover span{
+	color:#9aa0a8;
+	display: block;
+}
+
+.cover div {
+	display: inline-block;
+	height: 650px;
+
+}
+
+.profile-pic{
+	width: 40%;
+	text-align: center;
+
+	animation-name:profile-cover;
+	animation-duration:2s;
+}
+
+.profile-title{
+	vertical-align: top;
+	width: 59%;
+	animation-name:titulo-cover;
+	animation-duration:5s;
+}
+/*Treine com calma esse posicionamento entre o profile-pic e o profile
+title com outros elementos*/
+.profile-pic img{
+	width: 350px;
+	border-radius: 350px;
+	margin-top: 100px;
+
+}
+
+.profile-title h1 {
+	font-size: 60px;
+	margin-top: 180px;
+	font-weight: 500;
+	line-height: 60px;
+}
+
+.profile-title h2{
+	font-size: 25px;
+	font-weight: 400;
+	margin-top: -25px;
+}
+
+.main{
+	padding: 40px 180px 80px 100px;
+	animation-name:conteudo;
+	animation-duration:2s;
+	
+
+
+
+}
+
+.no-break{
+	overflow-wrap:break-word;
+	word-wrap:break-word;
+	/*Usado no caso se voce botar um link no texto e ele ficar quebrado por algum motivo*/
+
+}
+
+.cv-pic{
+	float:right;
+	width: 300px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+
+
+}
+
+
+.main h1 {
+	color:#2f9c95;
+	font-weight: normal;
+
+}
+
+.main h2{
+	color:#2f9c95;
+	font-size: 18px;
+	font-weight: normal;
+	margin-top: 40px;
+
+}
+
+.main h3{
+	color: #9aa0a8;
+	font-size: 12px;
+	text-transform:uppercase;
+}
+
+.main p{
+	font-size: 18px;
+	font-weight: 300;
+	color: gray;
+	line-height: 26px;
+	text-align: justify;
+
+}
+
+.path {
+	list-style: none;
+	padding-left: 0;
+	color: gray;
+	
+
+}
+
+.path a{
+	color:grey;
+
+}
+
+.path li {
+	display: inline-block;
+
+}
+
+.iconsSocial{
+	width: 30px;
+	margin-right: 15px;
+}
+
+.telefone{
+	width: 150px;
+    vertical-align: top;
+    padding-top: 0px;
+}
+
+.iconsWhat{
+	width: 30px;
+	margin-left: 10px;
+}
+.javaIcon{
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+.java{
+	display: flex;
+}
+
+.nivelJava{
+	width: 150px;
+    vertical-align: top;
+    padding-top: 0px;
+}
+
+.pythonIcon{
+	width: 30px;
+	height: 30px;
+	margin-left: 15px;
+	margin-top:20px;
+
+}
+
+.python{
+	display: flex;
+}
+
+.nivelPython{
+	width: 150px;
+    vertical-align: top;
+	padding-top: 0px;
+}
+
+.iconC{
+	width: 30px;
+	height: 30px;
+	margin-left: 15px;
+	margin-top:20px;
+}
+
+.cProgram{
+	display: flex;
+}
+
+.nivelC{
+	width: 150px;
+    vertical-align: top;
+    padding-top: 0px;
+}
+
+.progHtml{
+	display: flex;
+}
+
+.nivelHtml{
+	width: 150px;
+    vertical-align: top;
+    padding-top: 0px;
+}
+.htmlIcon{
+	width: 30px;
+	height: 30px;
+	margin-left: 15px;
+	margin-top:20px;
+
+}
+
+.cssIcon{
+	width: 30px;
+	height: 30px;
+	margin-left: 20px;
+	margin-top:20px;
+}
+
+
+.progJs{
+	display: flex;
+}
+
+.nivelJs{
+	width: 150px;
+    vertical-align: top;
+    padding-top: 0px;
+}
+
+.jsIcon{
+	width: 30px;
+	height: 30px;
+	margin-left: 20px;
+	margin-top: 25px;
+}
+
+.brazil{
+	display: flex;
+}
+
+.nivelBrazil{
+	width: 150px;
+	height: 70px;
+    vertical-align: top;
+	padding-top: 0px;
+	margin-bottom: auto;
+	padding-right: 50px;
+}
+
+.brazilIcon{
+	width: 40px;
+	height: 30px;
+	margin-left: 20px;
+	margin-top: 25px;
+}
+
+.spain{
+	display: flex;
+}
+
+.nivelSpain{
+	width: 150px;
+	height: 70px;
+    vertical-align: top;
+	padding-top: 0px;
+	margin-bottom: auto;
+	padding-right: 50px;
+}
+
+.spainIcon{
+	width: 40px;
+	height: 30px;
+	margin-left: 20px;
+	margin-top: 25px;
+}
+
+.english{
+	display: flex;
+}
+
+.nivelEnglish{
+	width: 150px;
+	height: 50px;
+    vertical-align: top;
+	padding-top: none;
+	margin-bottom: auto;
+	padding-right: 50px;
+
+}
+
+.englishIcon{
+	width: 40px;
+	height: 30px;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+.conteiner2{
+	margin-bottom: 20px;
+
+}
+
+.experienciaTrabalho{
+
+	padding-top: 0px;
+	
+}
+
+.residencia{
+	padding-bottom: 40px;
+}
+
+.miniatura{
+	width: 320px;
+	height: 320px;
+	display: inline-block;
+	margin-right: 15px;
+	margin-left:15px;
+	background-size: contain;
+	overflow: hidden;
+
+	/* o arquivo styles.css esta dentro
+	 da pasta style, para ele ter acesso a pasta img vc tem dizer 
+	 ao programa para sair da pagina atual e ir ate a pagina seguinte (igual aos comando 
+	 de pront de comando do linux ou do windows
+	 por isso o ../ do ../img/cirno.jpg*/
+}
+
+.miniatura a{
+	text-decoration: none;
+}
+
+.blackbox{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	text-align: center;
+	opacity: 0;
+	padding-top: 100px;
+	transition:1s;
+}
+
+.blackbox:hover{
+	opacity: 0.8;
+	transition:1s;
+
+}
+
+.blackbox-text h1{
+	font-size: 26px;
+	color: #2f9c95;
+	text-transform: uppercase;
+	margin-top: 0;
+
+}
+
+.blackbox-text h2{
+	font-size: 26px;
+	color: #9aa0a8;
+	text-transform: none;
+	font-weight: normal;
+	margin-top: 0;
+
+}
+
+.foto-trabalhos{
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.back-link{
+	color: #9aa0a8;
+
+}
+
+
+@keyframes profile-cover{  
+	0% {opacity:0; transform: translate(0px,20px)}
+	100%{opacity:1; transform: translate(0px,0px)}
+
+}
+
+
+/*este recurso eh usado para fazer animações no qual
+se chama CSS transform, os varios tipos de animações que podem 
+ser feitos podem ser achados na internet*/
+
+@keyframes titulo-cover{
+	0%{opacity: 0;transform: translate(0px,-20px)}
+	100% {opacity: 1;transform:translate(0,0)}
+}
+
+@keyframes navigation{
+	0%{opacity: 0}
+	50%{opacity: 0}
+	100% {opacity: 1}
+}
+
+@keyframes conteudo{
+	0%{opacity: 0;transform: translate(-20px,0px)}
+	100% {opacity: 1;transform:translate(0,0)}
+}
+
+@media (max-width: 1000px){
+
+.navigation li {
+	display: none;
+}
+.navigation li.threeline-icon{
+	display: inline-block;
+}
+
+.cover div {
+	display: block;
+	height: auto;
+}
+.profile-pic{
+	
+	width: 100%;
+
+}
+.profile-pic img{
+	margin-top: 28px;
+	max-width: 80%;
+}
+.profile-title{
+	text-align: center;
+	
+	width: 100%;
+}
+
+.profile-title h1{
+	margin-top: 30px;
+	font-size: 40px;
+	margin-left: 20px;
+	margin-right: 20px;
+
+
+
+}
+.profile-title h2{
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.main{
+	padding: 10px 5% 40px 5%;
+
+
+}
+
+.main p{
+	text-align: left;
+	line-height: 30px;
+}
+
+.path li{
+	font-size: 12px;
+}
+
+.cv-pic{
+	float:none;
+	max-width: 100% ;
+
+	
+}
+
+.miniatura{
+	max-width: 100%;
+	background-size: auto 100%;
+
+
+
+}
+.blackbox{
+	opacity: 0.8;
+}	
+
+.menujs{
+	height: auto;
+}
+.menujs ul{
+	height: auto;
+	text-align: center;
+	padding-right: 15%;
+	padding-left: 15%;
+
+}
+
+.menujs li{
+	display: block;
+	border-bottom: solid white 1px;
+	width: 100%;
+	padding: 0;
+}
+
+
+}
+
+
+
+	

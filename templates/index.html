@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<!-- Tome muito cuidado ao abrir e fechar coisas (chaves classes etc) porque voce pode estar englobando coisa que não deveria!
+cuidado tambem ao escrever as funcoes e comandos qualquer coisinha errada ele não funciona e como essa porra não tem debugador fica muito dificil saber onde está do erro! -->
+
+<html>
+
+	<head>
+		<title>Rafael Belmonte Izukawa - Portfolio Online</title>
+
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="static/css/styles.css">
+		<!-- esse ultimo comando serve para "conectar" o html com o CSS -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:100,300,400,500&display=swap" rel="stylesheet"> <!--esse link serve para voce abaixar outros tipos de fontes, cuidado com os tipos de fontes pois nem todos funcionam no mesmo sistema operacional (linux para windows, windows para iOS etc), mas esse link do google (google fonts eh otimo pois funciona para quase todos os tipos de sistemas operacionais e a diversidade é enorme, lembre-se de sempre coloca-lo em cada head) -->
+		<script type="text/javascript" src="static/js/scripts.js"></script>
+		<!-- esse ultimo comando serve para "conectar" o script do javascript com o html -->
+		<meta name="viewport" content="width=device-width, inicial-scale=1.0">
+		<link rel="shortcut icon" href="static/img/tv.png">
+
+	</head>
+
+
+	<body>
+
+			<div id="navigation" class="navigation">
+				<ul>
+					<li><a href="inicio">Home</a></li>
+					<li><a href="curriculo">Currículo</a></li>
+					<li><a href="contato">Contato</a></li>
+					<li id="threeline-icon" class="threeline-icon" onclick="openNav()">&#9776;</li>
+				</ul>
+			</div>
+
+			<!-- esse  &#9776 se chama entidade e serve para colocarmos simbolos ao lado de textos ao invés de imagens, a vantagem é que não carrega tanto a página -->
+
+			<div class="cover">
+
+				<div class="profile-pic">
+					<img src="static/img/experimento.jpg" alt="Foto de Rafael Belmonte Izukawa">
+				</div>
+
+				<div class="profile-title">
+					<h1><span>Rafael</span> Belmonte Izukawa</h1>
+					<h2>Programador Python - Programador Java - Estudante de Análise e desenvolvimento de sistemas</h2>	
+				</div>
+				
+			</div>
+		
+	</body>
+
+</html>
