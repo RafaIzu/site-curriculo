@@ -217,7 +217,7 @@ title com outros elementos*/
 	width: 30px;
 	height: 30px;
 	margin-left: 10px;
-	margin-top: 20px;
+	margin-top: 5px;
 }
 
 .java{
@@ -227,14 +227,15 @@ title com outros elementos*/
 .nivelJava{
 	width: 150px;
     vertical-align: top;
-    padding-top: 0px;
+	padding-top: 0px;
+	margin-bottom: 20px;
 }
 
 .pythonIcon{
 	width: 30px;
 	height: 30px;
 	margin-left: 15px;
-	margin-top:20px;
+	margin-top:5px;
 
 }
 
@@ -246,14 +247,9 @@ title com outros elementos*/
 	width: 150px;
     vertical-align: top;
 	padding-top: 0px;
+	margin-bottom: 20px;
 }
 
-.iconC{
-	width: 30px;
-	height: 30px;
-	margin-left: 15px;
-	margin-top:20px;
-}
 
 .cProgram{
 	display: flex;
@@ -261,8 +257,18 @@ title com outros elementos*/
 
 .nivelC{
 	width: 150px;
-    vertical-align: top;
-    padding-top: 0px;
+	vertical-align: top;
+	margin-bottom: 20px;
+   
+}
+
+.iconC{
+	width: 30px;
+	height: 30px;
+	margin-left: 15px;
+	margin-top: 5px;
+	
+	
 }
 
 .progHtml{
@@ -272,13 +278,13 @@ title com outros elementos*/
 .nivelHtml{
 	width: 150px;
     vertical-align: top;
-    padding-top: 0px;
+    margin-bottom: 20px;
 }
 .htmlIcon{
 	width: 30px;
 	height: 30px;
 	margin-left: 15px;
-	margin-top:20px;
+	margin-top:10px;
 
 }
 
@@ -286,7 +292,7 @@ title com outros elementos*/
 	width: 30px;
 	height: 30px;
 	margin-left: 20px;
-	margin-top:20px;
+	margin-top:10px;
 }
 
 
@@ -297,14 +303,14 @@ title com outros elementos*/
 .nivelJs{
 	width: 150px;
     vertical-align: top;
-    padding-top: 0px;
+
 }
 
 .jsIcon{
 	width: 30px;
 	height: 30px;
 	margin-left: 20px;
-	margin-top: 25px;
+	margin-top: 5px;
 }
 
 .brazil{
