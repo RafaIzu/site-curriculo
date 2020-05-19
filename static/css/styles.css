@@ -313,6 +313,23 @@ title com outros elementos*/
 	margin-top: 5px;
 }
 
+.sql{
+	display: flex;
+}
+.nivelsql{
+	width: 150px;
+    vertical-align: top;
+	padding-top: 0px;
+	margin-bottom: 20px;
+}
+
+.sqlIcon{
+	width: 30px;
+	height: 30px;
+	margin-left: 20px;
+	margin-top:10px;
+}
+
 .brazil{
 	display: flex;
 }
